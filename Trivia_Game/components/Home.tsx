@@ -31,6 +31,11 @@ export default function Home() {
           {renderPickerItems()}
         </Picker>
       </View>
+      <View style={styles.diff_container}>
+        <Text style={styles.difficulty}>Easy</Text>
+        <Text style={styles.difficulty}>Medium</Text>
+        <Text style={styles.difficulty}>Hard</Text>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
